@@ -1,0 +1,29 @@
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    background-color: rgb(128, 125, 125);
+    color: darkslategrey;
+    
+}
+
+.navigation {display: inline-block;
+
+}
+
+.aboutme {
+
+}
+
+.my-work {
+
+}
+
+.contact-me {
+
+}
+
+
