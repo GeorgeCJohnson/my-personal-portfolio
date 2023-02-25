@@ -9,6 +9,7 @@
     width: 1200px; 
     margin-left: auto;
     margin-right: auto;
+    /* added grid for possible future use */
     grid-template-columns: 3;
     grid-template-rows: 4;
 }   
@@ -20,11 +21,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
     margin: 25px 0;
     border-top: 5px solid blue;
 }
 
-.title {font-weight: bold;
+.title {
+    font-weight: bold;
     font-size: 24px;
 }
 
@@ -77,11 +80,21 @@
 
 .prework {
     display: block;
+    width: 30%;
+    height: 200px;
     background-image: url(./images/calculator.jpg);
     background-size:cover
+
 }
 
 .horiseon {
+    display: block;
+    width: 30%;
+    height: 200px;
+    background-image: url();
+}
+
+.myportfolio {
 
 }
 
