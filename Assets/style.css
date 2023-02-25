@@ -19,11 +19,14 @@
     color: rgb(38, 94, 94);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 25px 0;
     border-top: 5px solid blue;
 }
 
-.title {
+.title {font-weight: bold;
+    font-size: 24px;
+
     
 }
 .navigation {
