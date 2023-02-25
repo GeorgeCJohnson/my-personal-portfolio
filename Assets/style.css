@@ -3,31 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main-header {
-    display: flex;
-    background-color: rgb(172, 171, 171);
-    color: darkslategrey;
-}
-
 .container {
-    width: 1200px;
+     width: 1200px; 
     margin-left: auto;
     margin-right: auto;
 }
 
+.main-header {
+    background-color: rgb(206, 204, 204);
+    color: rgb(38, 94, 94);
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+
 .title {
     
 }
-
-.navigation {display: inline-block;
-
+.navigation {
+    
 }
+
 
 .aboutme {
-
+    display: flex;
+    font-size: 16px;
 }
 
+.aboutme p {
+    font-size: 12px;
+    justify-content: center;
+}    
 .my-work {
 
 }
