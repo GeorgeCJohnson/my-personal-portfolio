@@ -9,8 +9,8 @@
     width: 1200px; 
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
 }   
 
 /* Top banner.  Includes image, title and nav bar */
@@ -26,22 +26,31 @@
 
 .title {font-weight: bold;
     font-size: 24px;
-
-    
 }
+
 .navigation {
     
 }
 
 /* Informational sections */
-.aboutme {
+
+.authorbox {
     display: flex;
+    width: 60%;
+}
+
+.aboutme {
     font-size: 16px;
     width: 100%;
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.authorimage {
+    float: left;
 }
 
 .aboutcontent {
@@ -50,13 +59,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.4;
     margin-bottom: 25px;
-
 }
 
 .my-work {
-    display: flex;    
+    display: flex;
+    font-size: 16px;
     width: 100%;
-    margin-bottom: 15px;    
+    margin-top: 15px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
