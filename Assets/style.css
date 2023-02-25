@@ -64,17 +64,25 @@
 .my-work {
     display: flex;
     font-size: 16px;
-    width: 100%;
     margin: 15px 0;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 .workcontent {
     margin-bottom: 15px;
     line-height: 1.4;
+}
+
+.prework {
+    display: block;
+    background-image: url(./images/calculator.jpg);
+    background-size:cover
+}
+
+.horiseon {
+
 }
 
 .contact-me {
