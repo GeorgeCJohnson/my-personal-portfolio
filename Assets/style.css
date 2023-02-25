@@ -5,7 +5,9 @@
 }
 
 .main-header {
-    
+    display: flex;
+    background-color: rgb(172, 171, 171);
+    color: darkslategrey;
 }
 
 .container {
@@ -15,8 +17,7 @@
 }
 
 .title {
-    background-color: rgb(172, 171, 171);
-    color: darkslategrey;
+    
 }
 
 .navigation {display: inline-block;
