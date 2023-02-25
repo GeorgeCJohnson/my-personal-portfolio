@@ -8,6 +8,25 @@ html {
     scroll-behavior: smooth;
   }
 
+button {cursor: pointer;}
+
+/* Link actions */  
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-shadow: black;
+}
+
+a:active {
+    text-decoration: underline blue;
+}
+
 /* Conatins all content viewable by User */
 .container {
     width: 1200px; 
@@ -37,8 +56,6 @@ html {
 
 /* .navigation { */
     
-
-
 /* Informational sections */
 
 .authorbox {
@@ -94,7 +111,7 @@ html {
     display: block;
     width: 30%;
     height: 200px;
-    margin-bottom: 75px;
+    margin: 75px auto;
     background-image: url(./images/pastel_puzzle.jpg);
     background-size: cover;
 }
@@ -104,7 +121,7 @@ html {
     color: aliceblue;
     width: 30%;
     height: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     background-image: url(./images/nebula.jpg);
     background-size: cover;
 }
@@ -116,26 +133,9 @@ html {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
 
-/* Link actions */
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-text-decoration: none;
-}
-
-a:hover {
-text-shadow: black;
-}
-
-a:active {
-    text-decoration: underline blue;
-}
-
-
-button {cursor: pointer;}
 /* possible footer area */
+footer {
+    border-bottom: 5px solid blue;
+}
