@@ -118,5 +118,24 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Link actions */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-shadow: black;
+}
+
+a:active {
+    text-decoration: underline blue;
+}
+
+
 button {cursor: pointer;}
 /* possible footer area */
