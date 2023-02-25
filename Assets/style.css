@@ -9,7 +9,9 @@
     width: 1200px; 
     margin-left: auto;
     margin-right: auto;
-}
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}   
 
 /* Top banner.  Includes image, title and nav bar */
 .main-header {
