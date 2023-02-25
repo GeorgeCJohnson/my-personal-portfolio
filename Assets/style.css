@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* makes the scrolling upon link click smooth */
+html {
+    scroll-behavior: smooth;
+  }
 
 /* Conatins all content viewable by User */
 .container {
@@ -98,10 +102,11 @@
 
 .myportfolio {
     display: block;
+    color: aliceblue;
     width: 30%;
     height: 200px;
     margin-bottom: 15px;
-    background-image: url(./images/pastel_puzzle.jpg);
+    background-image: url(./images/nebula.jpg);
     background-size: cover;
 }
 
