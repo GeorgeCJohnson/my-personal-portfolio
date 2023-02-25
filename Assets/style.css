@@ -82,20 +82,27 @@
     display: block;
     width: 30%;
     height: 200px;
+    margin-bottom: 15px;
     background-image: url(./images/calculator.jpg);
     background-size:cover
-
 }
 
 .horiseon {
     display: block;
     width: 30%;
     height: 200px;
-    background-image: url();
+    margin-bottom: 15px;
+    background-image: url(./images/pastel_puzzle.jpg);
+    background-size: cover;
 }
 
 .myportfolio {
-
+    display: block;
+    width: 30%;
+    height: 200px;
+    margin-bottom: 15px;
+    background-image: url(./images/pastel_puzzle.jpg);
+    background-size: cover;
 }
 
 .contact-me {
