@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Conatins all content viewable by User */
 .container {
-     width: 1200px; 
+    width: 1200px; 
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Top banner.  Includes image, title and nav bar */
 .main-header {
     background-color: rgb(206, 204, 204);
     color: rgb(38, 94, 94);
     display: flex;
     justify-content: space-between;
-    /* justify-content: space-between; */
+    margin: 25px 0;
+    border-top: 5px solid blue;
 }
 
 
@@ -25,16 +29,20 @@
     
 }
 
-
+/* Informational sections */
 .aboutme {
     display: flex;
     font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
-.aboutme p {
-    font-size: 12px;
-    justify-content: center;
-}    
+.aboutcontent {
+    width: 60%;
+
+}
+
 .my-work {
 
 }
